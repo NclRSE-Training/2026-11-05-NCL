@@ -19,7 +19,7 @@
 # When setting this field to "incubator", please uncomment the
 # incubator_lesson_site, incubator_pre_survey, and incubator_post_survey
 # lines further down this file and add the URL to the relevant lesson site.
-carpentry: swc
+carpentry: incubator
 
 
 
@@ -36,7 +36,7 @@ carpentry: swc
 # dc-image:         for Data Carpentry Image Processing
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
 # swc-gapminder:    for Software Carpentry based on the Gapminder dataset
-curriculum: swc-gapminder
+curriculum: 
 
 
 
@@ -46,13 +46,13 @@ curriculum: swc-gapminder
 # value of the variable below ("flavor") to get the schedule and installation
 # instructions updated accordingly (valid values are 'r' or 'python').
 # Note: this is only for Data Carpentry and SWC at this time.
-flavor: python
+flavor: 
 
 
 
 # If the workshop will be a lesson pilot (for a new official lesson or
 # a lesson in The Carpentries Incubator), set pilot to "true"
-pilot: false
+pilot: true
 
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
@@ -69,13 +69,13 @@ title: Pilot Data Management
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-# incubator_lesson_site: "put the URL of the lesson being taught here"
+incubator_lesson_site: "https://newcastlerse-training.github.io/data-management-carpentry/"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
-# incubator_pre_survey: "put the URL of your pre-workshop survey here"
+incubator_pre_survey: "https://forms.cloud.microsoft/e/JcUeRRnHkn"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
-# incubator_post_survey: "put the URL of your post-workshop survey here"
+incubator_post_survey: "https://forms.cloud.microsoft/e/T4B7r2xvb0"
 #
 #------------------------------------------------------------
 
