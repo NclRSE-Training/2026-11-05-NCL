@@ -17,9 +17,11 @@
 # and for instructor training events you should use:
 #  https://github.com/carpentries/training-template
 # When setting this field to "incubator", please uncomment the
-# incubator_lesson_site, incubator_pre_survey, and incubator_post_survey
+incubator_lesson_site: https://newcastlerse-training.github.io/data-management-carpentry/
+
 # lines further down this file and add the URL to the relevant lesson site.
 carpentry: incubator
+
 
 
 
@@ -36,7 +38,8 @@ carpentry: incubator
 # dc-image:         for Data Carpentry Image Processing
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
 # swc-gapminder:    for Software Carpentry based on the Gapminder dataset
-curriculum: 
+curriculum:  
+
 
 
 
@@ -46,7 +49,8 @@ curriculum:
 # value of the variable below ("flavor") to get the schedule and installation
 # instructions updated accordingly (valid values are 'r' or 'python').
 # Note: this is only for Data Carpentry and SWC at this time.
-flavor: 
+flavor:  
+
 
 
 
@@ -61,6 +65,7 @@ pilot: true
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
 title: Pilot Data Management
+
 
 
 

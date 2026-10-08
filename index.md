@@ -2,7 +2,7 @@
 # More detailed instructions (including how to fill these variables for an # online workshop) are available at https://carpentries.github.io/workshop-template/customization/index.html#yaml-header
 # Required variables
 venue: "Newcastle University"
-address: "Henry Daysh Building, PGR Learning Lab R6.19"
+description: "Henry Daysh Building, PGR Learning Lab R6.19"
 country: "gb"
 language: "en"
 latitude: "54.980533"
@@ -288,6 +288,7 @@ This block displays the date and links to Google Calendar.
 </div>
 
 
+
 <div class="row">
 <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Accessibility</dt>
 <dd class="col py-2 px-3 mx-0 mb-0">
@@ -520,6 +521,7 @@ of code below the Schedule `<h2>` header below with
 {% include {{ schedule_file }} %}
 {% elsif site.carpentry == "incubator" %}
 This workshop is teaching a lesson in <a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>.
+
 
 
 Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
